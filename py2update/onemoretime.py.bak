@@ -2,7 +2,7 @@
 thisround = 0           # integer round initiated to 0
 while(True):        # sets up an infinite loop condition
     print('What is the IPv4 address used to broadcast on a local network? ')
-    answer = input()    # string answer collected from user
+    answer = raw_input()    # string answer collected from user
     thisround = thisround + 1     # increase the round counter
     if (answer == '255.255.255.255'): # logic to check if user gave correct answer
         print('Correct!')

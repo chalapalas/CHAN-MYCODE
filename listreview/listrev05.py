@@ -1,0 +1,31 @@
+#!/usr/bin/env python3
+
+def main():
+    ## a list of alta3 classes
+    alta3classes = ['python_basics', 'python_api_design', 'python_for_networking', 'kubernettes', 'sip', 'ims', '5g', '4g', 'avaya', 'ansible', 'python_and_ansible_for_network_automation']
+    ## display the list
+    print(alta3classes)
+
+    ## how long is the list? use the builtin len function
+    ## THEN print (display) the results
+    print(len(alta3classes))
+
+    # display python_basics
+    print(alta3classes[0])
+
+    # display sip
+    print(alta3classes[4])
+
+    # display ansible
+    print(alta3classes[9])
+
+    ##Uncomment to see a list index out of range error
+    #print(alta3classes[99])
+
+    print(alta3classes[0:3])
+
+    print(alta3classes[2:5])
+
+    print(alta3classes[-1])
+
+main()
